@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+* {
+    font-family: Montserrat, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #D2D3D7;
+}
+header img{
+    width: 260px;
+}
+
+header {
+    background-color: #F06143;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid #fff;
+    border-bottom: none;
+    align-items: center;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+}
+.nav_links {
+    list-style: none;
+    margin: 10px 0;
+}
+.nav_links li {
+    display: inline-block;
+    border-right: 1px solid #d7d7d7;
+    padding: 7px 80px;
+}
+.nav_links li:nth-child(5){
+    border: none;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.banner {
+    background: #FED035;
+    border: 1px solid #fff;
+    border-top: none;
+    padding: 25px;
+}
+.banner h1 {
+    font-weight: lighter;
+    letter-spacing: -2px;
+}
+.banner .banner_p {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.banner_p_2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+.display-4 {
+    margin-top: 105px;
+}
+.btn-danger {
+    background: #F06143;
+    border: none;
+}
+
+.col-md-4 {
+    padding: 0;
+}
+.box {
+    background: #bababa
+}
+.box > p {
+    font-size: 14px;
+    padding: 25px 25px 35px;
+    color: #fff;
+    line-height: 22px;
+}
+.box1 {
+    padding: 15px 7px 0 15px
+}
+.box2 {
+    padding: 15px 8px 0 10px
+}
+.box3 {
+    padding: 15px 15px 0 8px
+}
+.list-group-flush {
+    border-right: 2px solid #bababa;
+
+}
+.list-group-item {
+    border: none;
+    text-align: left;
+    margin-left: 65px;
+    font-weight: 500;
+    color: #bababa;
+    font-size: 17px;
+}
+.centar_text {
+    font-size: 14px;
+    color: #bababa;
+    line-height: 25px;
+    padding: 10px 25px;
+}
+
+.icon img{
+    width: 150px;
+    padding: 15px;
+    margin-bottom: -5px;
+}
+
+.footer {
+    background: #ED1B24;
+    border: 1px solid #fff;
+    border-top: none;
+}
+.footer_box {
+    padding: 35px;
+    color: #fff;
+}
+.footer_box h5 {
+    font-size: medium;
+    margin-bottom: 25px;
+}
+.footer_box p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.wrapper {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
